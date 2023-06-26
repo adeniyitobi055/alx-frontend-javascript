@@ -4,8 +4,8 @@ export default function taskBlock(trueOrFalse) {
 
   //eslint-disable-next-line no-empty
   if (trueOrFalse) {
-  }
 
+  }
 
   return [task, task2];
 }
