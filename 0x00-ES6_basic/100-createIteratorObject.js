@@ -4,7 +4,7 @@ export default function createIteratorObject(report) {
   function* employeeIterator() {
     for (const employees of departments) {
       for (const employee of employees) {
-	yield employee;
+        yield employee;
       }
     }
   }
