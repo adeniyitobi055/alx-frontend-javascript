@@ -1,9 +1,9 @@
 export default function getResponseFromAPI() {
-  return new Promise((resolver, reject) => {
+  return new Promise((resolver) => {
     // Simulating an asynchronous API call
     setTimeout(() => {
-      // Assuming the API call is succesful
-      const responseData = { message: "API response"};
+    // Assuming the API call is succesful
+      const responseData = { message: 'API response'};
       resolver(responseData);
 
       // If the API call encounters an error, use `reject` instead
