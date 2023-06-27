@@ -36,6 +36,7 @@ To run the file in your terminal ensure you've made all the necessary configurat
 The `index.js` is a file and can be optional depending on your configurations.
 
 
+
 |TASK|FILE_NAME|DESCRIPTION|
 |----|---------|-----------|
 |0|[0-constants.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x00-ES6_basic/0-constants.js)|Modify the variables in the function|
@@ -52,3 +53,4 @@ The `index.js` is a file and can be optional depending on your configurations.
 |11|[11-createEmployeesObject.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x00-ES6_basic/11-createEmployeesObject.js)|Creates a function named `createEmployeesObject` that will receive `two arguments`: `departmentName (String)`, `employees (Array of Strings)`|
 |12|[12-createReportObject.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x00-ES6_basic/12-createReportObject.js)|Creates a function named `createReportObject` whose parameter, `employeesList`, is the return value of the previous function `createEmployeesObject`.|
 |13|[100-createIteratorObject.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x00-ES6_basic/100-createIteratorObject.js)|Creates a function named `createIteratorObject`, that will take into argument a `report Object` created with the previous function `createReportObject`.|
+|14|[101-iterateThroughObject.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x00-ES6_basic/101-iterateThroughObject.js)|Finally! Creates a function named `iterateThroughObject`. The function’s parameter `reportWithIterator` is the return value from `createIteratorObject`.|
