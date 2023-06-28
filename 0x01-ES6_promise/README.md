@@ -67,7 +67,7 @@ module.exports = {
 ```
 
 `utils.js`
-Note: this is `not a library you need to `install`, just create the file and apply these content
+Note: this is `not a library you need to install`, just create the file and apply these content
 ```
 export function uploadPhoto() {
   return Promise.resolve({
