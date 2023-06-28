@@ -1,6 +1,6 @@
 # 0x00-ES6_basic
 
-## Requirements
+### Editors
 Some editors you can use are `vi`, `vim`, `emacs`, `Visual Studio Code`.
 
 ### Setup
