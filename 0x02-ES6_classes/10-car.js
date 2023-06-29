@@ -6,7 +6,7 @@ export default class Car {
   }
 
   cloneCar() {
-    const constructor = Reflect.getPrototypeOf(this).constructor;
+    const constructor = Reflect.getPrototypeOf(this);
     const { _brand, _motor, _color } = this;
     return new constructor(_brand, _motor, _color);
   }
