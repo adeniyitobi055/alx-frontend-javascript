@@ -1,29 +1,8 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
-    this._name = this._validateString(name, "Name");
-    this._length = this._validateNumber(length, "Length");
-    this._students = this._validateStudents(students, "Students");
-  }
-
-  _validateString(value, attribute) {
-    if (typeof value !== "string") {
-      throw new TypeError(`${attribute} must be a string`);
-    }
-    return value;
-  }
-
-  _validateNumber(value, attribute) {
-    if (typeof value !== "number") {
-      throw new TypeError(`${attribute} must be a number`);
-    }
-    return value;
-  }
-
-  _validateStudents(students, attribute) {
-    if (!Array.isArray(students) || students.some((s) => typeof s !== "string")) {
-      throw new TypeError(`${attribute} must be an array of strings`);
-    }
-    return students;
+    this._name = this._verifyString(name);
+    this._length = this._verifyNumber(length);
+    this._students = this._verifyArray(students);
   }
 
   get name() {
@@ -31,7 +10,7 @@ export default class HolbertonCourse {
   }
 
   set name(newName) {
-    this._name = this._validateString(newName, "Name");
+    this._name = this._verifyString(newName);
   }
 
   get length() {
@@ -39,7 +18,7 @@ export default class HolbertonCourse {
   }
 
   set length(newLength) {
-    this._length = this._validateNumber(newLength, "Length");
+    this._length = this._verifyNumber(newLength);
   }
 
   get students() {
@@ -47,6 +26,27 @@ export default class HolbertonCourse {
   }
 
   set students(newStudents) {
-    this._students = this._validateStudent(newStudents, "Students");
+    this._students = this._verifyArray(newStudents);
+  }
+
+  _verifyString(value) {
+    if (typeof value !== 'string') {
+      throw new TypeError('Value must be a string');
+    }
+    return value;
+  }
+
+  _verifyNumber(value) {
+    if (typeof value !== 'number') {
+      throw new TypeError('Value must be a number');
+    }
+    return value;
+  }
+
+  _verifyArray(value) {
+    if (!Array.isArray(value)) {
+      throw new TypeError('Value must be an array');
+    }
+    return value;
   }
 }
