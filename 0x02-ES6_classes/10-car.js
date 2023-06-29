@@ -11,7 +11,6 @@ class Car {
 
   cloneCar() {
     const { [brandSymbol]: brand, [motorSymbol]: motor, [colorSymbol]: color } = this;
-    const constructor = Object.getPrototypeOf(this).constructor;
     return new constructor(brand, motor, color);
   }
 }
