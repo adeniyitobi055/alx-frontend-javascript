@@ -112,8 +112,8 @@ module.exports = {
 ## Usage
 `npm` `run` `dev` `file_name`.
 
-|TASK|FILE_NAME|DESCRIPTION|
-|----|---------|-----------|
+|TASK|FILE_NAME|MAIN_FUNCTION|DESCRIPTION|
+|----|---------|-------------|-----------|
 |0|[0-get_list_students.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/0-get_list_students.js)|[0-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/0-main.js)|Creates a function `getListStudents` that returns an array of objects.|
 |1|[1-get_list_student_ids.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/1-get_list_student_ids.js)|[1-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/1-main.js)|Creates a function `getListStudentIds` that returns an array of ids from a list of objects.|
 |2|[2-get_students_by_loc.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/2-get_students_by_loc.js)|[2-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/2-main.js)|Creates a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.|
