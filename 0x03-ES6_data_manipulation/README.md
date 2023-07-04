@@ -13,9 +13,9 @@ sudo apt install nodejs -y
 
 ### Confirm installations
 ```
-$ node -v
+node -v
 v12.11.1
-$ npm -v
+npm -v
 6.11.3
 ```
 
@@ -107,23 +107,23 @@ module.exports = {
 };
 ```
 
-**Don't forget to run `npm install` when you have the `package,json`**
+**Don't forget to run `npm install` when you have the package.json**
 
-### Usage
+## Usage
 `npm` `run` `dev` `file_name`.
 
-### Description
+## Description
 
-|TASK|FILE_NAME|MAIN_FUNCTION_FILE_NAME|DESCRIPTION|
-|0|[0-get_list_students.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/0-get_list_students.js)|[0-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/0-main.js)|Creates a function `getListStudents` that returns an array of objects.|
-|1|[1-get_list_student_ids.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/1-get_list_student_ids.js)|[1-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/1-main.js)|Creates a function `getListStudentIds` that returns an array of ids from a list of objects.|
-|2|[2-get_students_by_loc.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/2-get_students_by_loc.js)|[2-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/2-main.js)|Creates a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.|
-|3|[3-get_ids_sum.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/3-get_ids_sum.js)|[3-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/3-main.js)|Creates a function `getStudentIdsSum` that returns the sum of all the student ids.|
-|4|[4-update_grade_by_city.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/4-update_grade_by_city.js)|[4-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/4-main.js)|Creates a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade.|
-|5|[5-typed_arrays.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/5-typed_arrays.js)|[5-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/5-main.js)|Creates a function `createInt8TypedArray` that returns a new ArrayBuffer with an Int8 value at a specific position.|
-|6|[6-set.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/6-set.js)|[6-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/6-main.js)|Creates a function `setFromArray` that returns a Set from an array.|
-|7|[7-has_array_values.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/7-has_array_values.js)|[7-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/7-main.js)|Creates a function `hasValuesFromArray` that returns a boolean if all the elements in the array exist within the set.|
-|8|[8-clean_set.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/8-clean_set.js)|[8-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/8-main.js)|Creates a function `cleanSet` that returns a string of all the set values that start with a specific string `(startString)`.|
-|9|[9-groceries_list.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/9-groceries_list.js)|[9-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/9-main.js)|Creates a function `groceriesList` that returns a map of groceries.|
-|10|[10-update_uniq_items.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/10-update_uniq_items.js)|[10-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/10-main.js)|Creates a function `updateUniqueItems` that returns an updated map for all items with initial quantity at 1.|
-|11|[100-weak.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/100-weak.js)|[100-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/100-main.js)|Exports a `const` instance of `WeakMap` and export a new function `queryAPI`.|
+|TASK|FILE_NAME|DESCRIPTION|
+|0|[0-get_list_students.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/0-get_list_students.js)|Creates a function `getListStudents` that returns an array of objects.|
+|1|[1-get_list_student_ids.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/1-get_list_student_ids.js)|Creates a function `getListStudentIds` that returns an array of ids from a list of objects.|
+|2|[2-get_students_by_loc.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/2-get_students_by_loc.js)|Creates a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.|
+|3|[3-get_ids_sum.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/3-get_ids_sum.js)|Creates a function `getStudentIdsSum` that returns the sum of all the student ids.|
+|4|[4-update_grade_by_city.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/4-update_grade_by_city.js)|Creates a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade.|
+|5|[5-typed_arrays.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/5-typed_arrays.js)|Creates a function `createInt8TypedArray` that returns a new ArrayBuffer with an Int8 value at a specific position.|
+|6|[6-set.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/6-set.js)|Creates a function `setFromArray` that returns a Set from an array.|
+|7|[7-has_array_values.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/7-has_array_values.js)|Creates a function `hasValuesFromArray` that returns a boolean if all the elements in the array exist within the set.|
+|8|[8-clean_set.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/8-clean_set.js)|Creates a function `cleanSet` that returns a string of all the set values that start with a specific string `(startString)`.|
+|9|[9-groceries_list.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/9-groceries_list.js)|Creates a function `groceriesList` that returns a map of groceries.|
+|10|[10-update_uniq_items.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/10-update_uniq_items.js)|Creates a function `updateUniqueItems` that returns an updated map for all items with initial quantity at 1.|
+|11|[100-weak.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/100-weak.js)|Exports a `const` instance of `WeakMap` and export a new function `queryAPI`.|
