@@ -1,9 +1,9 @@
 # 0x03-ES6_data_manipulation
 
-### Editors
+## Editors
 Some editors that can be used are `vi`, `vim`, `emacs`, `Visual Studio Code`.
 
-### Setup
+## Setup
 Install NodeJS (in your home directory):
 ```
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
@@ -11,7 +11,7 @@ sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 ```
 
-Confirm installations:
+### Confirm installations
 ```
 $ node -v
 v12.11.1
@@ -19,14 +19,14 @@ $ npm -v
 6.11.3
 ```
 
-Install Jest, Babel, and ESLint (in your project directory):
+### Install Jest, Babel, and ESLint (in your project directory)
 ```
 Install Jest using: npm install --save-dev jest
 Install Babel using: npm install --save-dev babel-jest @babel/core @babel/preset-env
 Install ESLint using: npm install --save-dev eslint
 ```
 
-### Configuration files
+## Configuration files
 `package.json`
 ```
 {
@@ -110,11 +110,11 @@ module.exports = {
 **Don't forget to run `npm install` when you have the `package,json`**
 
 ### Usage
-`npm run dev file_name`.
+`npm` `run` `dev` `file_name`.
 
 ### Description
 
-|TASK|FILE_NAME|MAIN_FUNCTION-FILE_NAME|DESCRIPTION|
+|TASK|FILE_NAME|MAIN_FUNCTION_FILE_NAME|DESCRIPTION|
 |0|[0-get_list_students.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/0-get_list_students.js)|[0-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/0-main.js)|Creates a function `getListStudents` that returns an array of objects.|
 |1|[1-get_list_student_ids.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/1-get_list_student_ids.js)|[1-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/1-main.js)|Creates a function `getListStudentIds` that returns an array of ids from a list of objects.|
 |2|[2-get_students_by_loc.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/2-get_students_by_loc.js)|[2-main.js](https://github.com/adeniyitobi055/alx-frontend-javascript/blob/master/0x03-ES6_data_manipulation/main_functions/2-main.js)|Creates a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.|
