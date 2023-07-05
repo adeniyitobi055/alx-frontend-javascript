@@ -11,7 +11,7 @@ class Teacher {
     this.lastName = lastName;
     this.fullTimeEmployee = fullTimeEmployee;
     this.location = location;
-    this.additionalAttributes = [];
+    this.additionalAttributes = {};
   }
 
   public setYearsOfExperience(yearsOfExperience: number): void {
