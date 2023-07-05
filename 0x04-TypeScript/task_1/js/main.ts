@@ -26,3 +26,7 @@ class Teacher {
     return this.additionalAttributes[name];
   }
 }
+
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
