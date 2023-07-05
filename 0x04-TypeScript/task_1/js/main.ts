@@ -30,3 +30,14 @@ class Teacher {
 interface Directors extends Teacher {
   numberOfReports: number;
 }
+
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+const printTeacher: printTeacherFunction = (firstName, lastName) => {
+  const firstInitial = firstName.charAt(0).toUpperCase();
+  const formattedLastName = lastName.charAt(0).toUpperCase() + lastName.slice(1);
+
+  return `${firstInitial}. ${formattedLastName}`;
+}
